@@ -16,7 +16,7 @@ This project uses the click event to handle navigation through the page
 
 ## Lessons Learnt
 
-Spent more hours in figuring how to get the entire data from the page as the api was divided into 42(forty-two) pages as against previous experience of working with an api with a single page. I had to create an empty array, loop through the entire 42 pages, then push the data to the empty array. 
+Spent more hours than I would have spent creating this project trying to figure how to get the entire data from the page as the api was divided into 42(forty-two) pages as against previous experience of working with an api with a single page. I had to create an empty array, loop through the entire 42 pages, then push the data to the empty array. Check out the syntax of the solution below-:
 # Syntax
 
 ```
