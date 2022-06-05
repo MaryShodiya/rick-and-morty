@@ -208,9 +208,15 @@
   #welcome {
     margin-left: 127px;
   }
+  #get-btn {
+    margin-left: 127px;
+  }
 }
 @media only screen and (min-width: 600px) {
   #welcome {
+    margin-left:230px;
+  }
+  #get-btn{
     margin-left:230px;
   }
 }
@@ -226,6 +232,9 @@
   #welcome{
     margin-left: 300px;
   }
+  #get-btn {
+    margin-left:300px;
+  }
 }
 
 @media only screen and (min-width: 992px) {
@@ -237,5 +246,8 @@
   /*welcome button*/
   #welcome{
     margin-left: 480px;
+  }
+  #get-btn {
+    margin-left :480px;
   }
 }
