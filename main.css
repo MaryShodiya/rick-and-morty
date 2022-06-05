@@ -200,3 +200,42 @@
   box-shadow: 0 5px #8a5252;
   transform: translateY(4px);
 }
+
+/***** Media Queries ****/
+
+@media only screen and (max-width: 600px) {
+  /*welcome button*/
+  #welcome {
+    margin-left: 127px;
+  }
+}
+@media only screen and (min-width: 600px) {
+  #welcome {
+    margin-left:230px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+   /*welcome button*/
+   
+  
+}
+
+@media only screen and (min-width: 768px) {
+  /*welcome button*/
+  #welcome{
+    margin-left: 300px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  /*welcome button*/
+  
+}
+
+@media only screen and (min-width: 1200px) {
+  /*welcome button*/
+  #welcome{
+    margin-left: 480px;
+  }
+}
