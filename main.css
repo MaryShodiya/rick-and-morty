@@ -16,6 +16,7 @@
   .story{
     font-family: 'Rubik Microbe', cursive;
     display:none;
+    font-weight:bold;
     color:crimson;
   }
   img{
