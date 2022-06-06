@@ -15,6 +15,7 @@ for (let i = 0; i<= 42; i++){
     fetch(url+i)
     .then(res => res.json()) // parse response as JSON
     .then(data => {
+       document.querySelector('audio').play()
     currentPages.push(data.results)
     document.querySelector('.story').style.display='none'
   document.querySelector('.box').style.display='block'
@@ -26,7 +27,6 @@ document.querySelector('#next-page').style.display='block'
  document.querySelector('.status').innerText = currentPages[page][index]. status
  document.querySelector('.location').innerText = currentPages[page][index].location.name
  document.querySelector('#get-btn').style.display='none'
-
     })
     .catch(err => {
         console.log(`error ${err}`)
