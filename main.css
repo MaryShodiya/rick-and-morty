@@ -16,7 +16,7 @@
   .story{
     font-family: 'Rubik Microbe', cursive;
     display:none;
-    color:crimson
+    color:crimson;
   }
   img{
     display:none;
@@ -217,11 +217,11 @@
   
 }
 
-@media only screen and (min-width: 992px) {
-   /*welcome button*/
+/*@media only screen and (min-width: 992px) {
+   
    
   
-}
+}*/
 
 @media only screen and (min-width: 768px) {
   /*all button*/
@@ -231,10 +231,10 @@
 
 }
 
-@media only screen and (min-width: 992px) {
-  /*welcome button*/
+/*@media only screen and (min-width: 992px) {
+
   
-}
+} */
 
 @media only screen and (min-width: 1200px) {
   /*welcome button*/
