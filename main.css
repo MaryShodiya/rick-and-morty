@@ -150,7 +150,7 @@
   color: #FFFFFF;
   text-align: center;
   font-size: 28px;
-  padding: 20px;
+  padding: 15px;
   width: 200px;
   transition: all 0.5s;
   cursor: pointer;
@@ -244,13 +244,17 @@
   #welcome, #get-btn, #next-page {
     margin-left: 127px;
   }
-  
+  html{
+    min-height: 100%;
+  }
 }
 @media only screen and (min-width: 600px) {
   #welcome, #get-btn, #next-page {
     margin-left:230px;
   }
-  
+  html{
+    min-height: 100%;
+  }
 }
 
 /*@media only screen and (min-width: 992px) {
@@ -264,6 +268,9 @@
   #welcome, #get-btn, #next-page{
     margin-left: 300px;
   }
+  html{
+    min-height: 100%;
+  }
 
 }
 
@@ -276,5 +283,8 @@
   /*welcome button*/
   #welcome, #get-btn, #next-page{
     margin-left: 480px;
+  }
+  html{
+    min-height:100%;
   }
 }
