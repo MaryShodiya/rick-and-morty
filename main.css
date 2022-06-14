@@ -39,6 +39,40 @@
   
 }
 
+.fa-volume-up{
+  width: 80px;
+  border: 1px solid black;
+  background-color: #fff;
+  padding: 10px 15px;
+  border-radius: 18px;
+  position: relative;
+  outline: none;
+  overflow: hidden;
+  z-index: 100;
+}
+
+.fa-volume-off{
+  width: 80px;
+  border: 1px solid navy;
+  background: #fff;
+  display: inline-block;
+  padding: 10px 15px;
+  border-radius: 18px;
+  position: relative;
+  outline: none;
+  overflow: hidden;
+  z-index: 100;
+}
+
+
+.fa-volume-up span {
+  
+  z-index: 100;
+}
+
+.fa-volume-off span {
+  z-index: 100;
+}
 .inner-box{
   border:3px solid black;
   width: 360px;
@@ -120,6 +154,7 @@
   width: 200px;
   transition: all 0.5s;
   cursor: pointer;
+  margin-top:30px;
   margin-left: 500px;
   display:none;
 }
